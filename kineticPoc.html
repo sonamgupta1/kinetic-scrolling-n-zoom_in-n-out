@@ -1,0 +1,25 @@
+<html>
+	<head>
+   <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no maximum-scale=1">
+		<title>Kinetic-Poc</title> 
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/pure-nr-min.css">
+    <script src="js/scroll.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/raf.js" type="text/javascript" charset="utf-8"></script>   
+	 </head>
+	<body>
+  <div id="indicator"></div>
+  <div class="pure-g" id="content">
+    <div class="pure-u-1" id="view">
+      <table class="pure-u-1 pure-table pure-table-striped pure-table-horizontal">
+            <img class='zoom' src="images/sample.jpg" alt="Sample Image alet" width='1600' height='1200' />
+       <script src="js/wheelzoom.js" type="text/javascript" charset="utf-8" ></script>
+    <script>
+		wheelzoom(document.querySelector('img.zoom'));
+	 </script>
+        </div>
+        <div class="pure-u-1" id="view">
+      </div>
+    </div>
+	</body>
+</html>
